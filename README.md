@@ -95,7 +95,7 @@ The recorded estimate for two always-running `t3.micro` instances plus the ALB w
 
 ## Assignment evidence and documentation
 
-- [Four-page formatted assignment report](Compute Solution-M2-Report.docx)
+- [Four-page formatted assignment report](docs/Compute Solution-M2-Report.docx)
 - [Architecture diagram](docs/modular2-architecture.png)
 - [AWS Console setup notes](config/aws-console-settings.md)
 - [All 28 evidence screenshots](screenshots/)
