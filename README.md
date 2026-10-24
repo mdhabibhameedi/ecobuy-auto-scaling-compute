@@ -5,7 +5,9 @@
 **Region:** AWS Europe (Stockholm), `eu-north-1`  
 **Status:** Completed demonstration; all AWS resources were deleted after testing to avoid ongoing charges. **There is no live endpoint.**
 
-EcoBuy is a small Flask-based catalogue application deployed on Amazon EC2 behind an Application Load Balancer (ALB). An EC2 Auto Scaling Group (ASG) maintained a minimum of two instances across two Availability Zones and scaled up to five instances under CPU-intensive load. The infrastructure was configured in the AWS Console; this repository provides the application, bootstrap script, recorded settings, synthetic datasets, load-test script, screenshots, and assignment report. **It does not contain Terraform or currently deployed infrastructure.**
+EcoBuy is a small Flask-based catalogue application deployed on Amazon EC2 behind an Application Load Balancer (ALB). An EC2 Auto Scaling Group (ASG) maintained a minimum of two instances across two Availability Zones and scaled up to five instances under CPU-intensive load. The infrastructure was configured in the AWS Console; this repository provides the application, bootstrap script, recorded settings, synthetic datasets, load-test script, screenshots, and assignment report.
+
+**It does not contain Terraform or currently deployed infrastructure.**
 
 ![EcoBuy AWS architecture](docs/modular2-architecture.png)
 
@@ -23,7 +25,6 @@ EcoBuy is a small Flask-based catalogue application deployed on Amazon EC2 behin
 | [`docs/modular2-architecture.png`](docs/modular2-architecture.png) | System architecture diagram |
 | [`screenshots/`](screenshots/) | 28 screenshots of configuration, deployment, tests, scaling, and costs |
 | [`docs/Compute Solution-M2-Report.docx`](docs/Compute%20Solution-M2-Report.docx) | Final formatted four-page assignment report |
-
 
 ## Architecture and AWS configuration
 
