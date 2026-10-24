@@ -22,9 +22,8 @@ EcoBuy is a small Flask-based catalogue application deployed on Amazon EC2 behin
 | [`load-test/loadtest2.js`](load-test/loadtest2.js) | Live HTTP load generator for the deployed ALB |
 | [`docs/modular2-architecture.png`](docs/modular2-architecture.png) | System architecture diagram |
 | [`screenshots/`](screenshots/) | 28 screenshots of configuration, deployment, tests, scaling, and costs |
-| [`docs/Compute Solution-M2-Report.docx`](Compute Solution-M2-Report.docx) | Final formatted four-page assignment report |
+| [`docs/Compute Solution-M2-Report.docx`](docs/Compute%20Solution-M2-Report.docx) | Final formatted four-page assignment report |
 
-> **Report filename:** The link above assumes you placed your newly formatted report in the repository root using the filename shown. If you put it under `docs/` or renamed it, update this one link to match before publishing.
 
 ## Architecture and AWS configuration
 
@@ -95,7 +94,7 @@ The recorded estimate for two always-running `t3.micro` instances plus the ALB w
 
 ## Assignment evidence and documentation
 
-- [Four-page formatted assignment report](docs/Compute Solution-M2-Report.docx)
+- [Four-page formatted assignment report](docs/Compute%20Solution-M2-Report.docx)
 - [Architecture diagram](docs/modular2-architecture.png)
 - [AWS Console setup notes](config/aws-console-settings.md)
 - [All 28 evidence screenshots](screenshots/)
